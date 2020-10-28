@@ -30,6 +30,7 @@ Add Configuration -> Select test.py
 ```
 ![Pycharm](PyCharm.PNG)
 
+4. (Maybe?) Allow `VcXSrv` through Windows Firewall.
 
 VcXSrv Settings
 ---------------
