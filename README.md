@@ -2,7 +2,15 @@
 
 1. Install [VcXSrv](https://sourceforge.net/projects/vcxsrv/), launch, and configure per screenshots. 
 
-2. In PyCharm:
+2. Modify docker-compose.yml with your local ip from `ipconfig`
+
+```yaml
+environment:
+  - DISPLAY=LocalIPHere(localhost will not work):0.0
+```
+
+
+3. In PyCharm:
 ```
 Settings -> Tools -> Python Scientific 
 -> DISABLE "Show plots in tool window"
