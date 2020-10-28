@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  demo-matplot:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    stop_grace_period: 0s
+    environment:
+      - TZ=America/Chicago
+      - DISPLAY=LocalIPHere(localhost will not work):0.0
+    volumes:
+    - ./:/mnt/src
