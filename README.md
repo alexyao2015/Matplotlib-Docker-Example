@@ -24,10 +24,8 @@ Settings -> Project -> Path Mappings ->
 Local folder: Select Project Root
 Remote folder: /mnt/src
 ```
-```
-Add Configuration -> Select test.py 
--> Enable "Run with Python Console" as per screenshot
-```
+~~Add Configuration -> Select test.py 
+-> Enable "Run with Python Console" as per screenshot~~
 ![Pycharm](PyCharm.PNG)
 
 4. (Maybe?) Allow `VcXSrv` through Windows Firewall.
